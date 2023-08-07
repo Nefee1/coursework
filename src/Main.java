@@ -11,7 +11,7 @@ public class Main {
         System.out.println();
         System.out.println("среднее значение зарплат " + averageValueOfEmployeesSalaries());
         System.out.println();
-        System.out.println("Ф. И. О. всех сотрудников " + printFullName());//Здраствуйте не понимаю в чем ошибка
+        printFullName();
     }
 
     private static final Employee[] employeeDatabase = {
